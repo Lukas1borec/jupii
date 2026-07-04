@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Překvapení ❤️</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#ffe6ec;
+    font-family:Arial,sans-serif;
+}
+
+button{
+    background:#e60026;
+    color:white;
+    border:none;
+    padding:22px 50px;
+    font-size:30px;
+    border-radius:18px;
+    cursor:pointer;
+    box-shadow:0 8px 20px rgba(0,0,0,.25);
+    transition:.2s;
+}
+
+button:hover{
+    transform:scale(1.08);
+}
+</style>
+
+</head>
+<body>
+
+<button onclick="window.location.href='love.html'">
+❤️ Klikni ❤️
+</button>
+
+</body>
+</html>
